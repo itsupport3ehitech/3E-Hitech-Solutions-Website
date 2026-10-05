@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security Headers -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https:; media-src 'self'; connect-src 'self'; frame-src 'none';">
+    
+    <title>About Us | 3E Hitech Solutions Inc.</title>
+    <link rel="icon" href="../src/favicon/favicon.png" type="image/png">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="../sss/c.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="font-['Inter'] text-gray-800 overflow-x-hidden">
+
+<!-- Header -->
+<div id="header-container"></div>
+
+<!-- Hero Section -->
+<section class="video-hero">
+    <!-- Video background -->
+    <video class="video-background" autoplay muted loop playsinline>
+        <source src="../src/live/about/forAbout.mp4" type="video/mp4">
+        <!-- Fallback image if video doesn't load -->
+        <img src="../src/imgs/about/3Eone.jpg" alt="About Hero" class="absolute inset-0 z-0 w-full h-full object-cover">
+    </video>
+    
+    <!-- Enhanced overlay -->
+    <div class="hero-overlay"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <i class="ri-building-line"></i>
+                <span>Established 2016</span>
+            </div>
+            
+            <h1 class="hero-title" data-aos="fade-up">Powering the Future</h1>
+            
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Leading provider of integrated solutions for power grid and telecommunications infrastructure in the Philippines
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section class="py-24 relative overflow-hidden bg-white">
+    <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="about-image-wrapper" data-aos="fade-right">
+                <div class="about-image-container">
+                    <img src="../src/imgs/main/company.png" alt="3E Hitech Solutions Office" class="rounded-2xl shadow-2xl">
+                    <div class="experience-badge">
+                        <div class="text-primary font-bold">Since</div>
+                        <div class="text-gray-800 text-3xl font-bold">2016</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-content" data-aos="fade-left">
+                <div class="section-subtitle">Who We Are</div>
+                <h2 class="section-title">Leading Provider of Integrated Solutions</h2>
+                
+                <p class="mb-6">
+                    3E Hitech Solutions Inc. is a premier provider of integrated solutions for power grid and telecom networks in the Philippines. As an approved partner of NGCP and all major telecom companies, we deliver comprehensive services including engineering, procurement, construction, and commissioning (EPCC).
+                </p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="ri-shield-check-line"></i>
+                        </div>
+                        <h4>Trusted Partner</h4>
+                        <p>Of NGCP and major telecom companies in the Philippines</p>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="ri-service-line"></i>
+                        </div>
+                        <h4>Complete EPCC</h4>
+                        <p>Engineering, procurement, construction, and commissioning services</p>
+                    </div>
+                </div>
+                
+                <p class="highlight-text mb-8">
+                    We are the main supplier of power conductors, fiber optical cables, routers, switches, and GPON in the Philippines, committed to delivering high-quality products and services.
+                </p>
+                
+                <a href="solutions.html#services" class="btn-primary">
+                    Discover Our Solutions
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission & Vision Section -->
+<section class="py-24 bg-gray-50 relative overflow-hidden">
+    <!-- Background elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-300/5 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative">
+        <div class="text-center mb-16">
+            <div class="section-subtitle">Our Purpose</div>
+            <h2 class="section-title">Mission & Vision</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto">Guiding principles that drive our company forward</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+            <div class="mission-card" data-aos="fade-up">
+                <div class="mission-icon">
+                    <i class="ri-focus-3-line"></i>
+                </div>
+                <h3>Our Mission</h3>
+                <p>
+                    To become one of the top 10 solution integrators for Telecommunications and ICT products and modern Power Grid services. 3E Hitech Solutions Inc. aims to provide quality assurance services obtained through the finest technical expertise in engineering, and highly skilled and empowered personnel on installation, operation, and maintenance.
+                </p>
+            </div>
+            
+            <div class="mission-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="mission-icon">
+                    <i class="ri-eye-line"></i>
+                </div>
+                <h3>Our Vision</h3>
+                <p>
+                    Working toward the future demands that we not only focus on today's needs but also for the needs of tomorrow. 3E Hitech Solutions Inc. is focused on providing the best solutions and services to our customers, ensuring sustainable growth and innovation in the telecommunications and power grid sectors.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Core Values Section -->
+<section class="py-24 relative overflow-hidden">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <div class="section-subtitle">What Drives Us</div>
+            <h2 class="section-title">Our Core Values</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto">The principles that guide our work and relationships</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="value-card" data-aos="fade-up">
+                <div class="value-icon">
+                    <i class="ri-user-heart-line"></i>
+                </div>
+                <h3>RESPECT</h3>
+                <p>We respect our people's opinions and ideas, which are essential to maintaining a progressive environment. We recognize that employees make a company what it is and can be.</p>
+            </div>
+            
+            <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="value-icon">
+                    <i class="ri-shield-check-line"></i>
+                </div>
+                <h3>RESPONSIBILITY</h3>
+                <p>It is our duty to perform satisfactorily or even exceed the expectations of our clients/customers towards their needs and the quality assurance service that they deserve.</p>
+            </div>
+            
+            <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="value-icon">
+                    <i class="ri-scales-3-line"></i>
+                </div>
+                <h3>INTEGRITY</h3>
+                <p>We honor our commitments. We have an intuitive sense of honesty and truthfulness in regard to the motivations of our own actions and decisions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Services Section -->
+<section class="py-24 bg-gray-50 relative overflow-hidden">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <div class="section-subtitle">What We Offer</div>
+            <h2 class="section-title">Our Solutions</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto">Comprehensive solutions for your infrastructure needs</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="service-card" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="ri-flashlight-fill"></i>
+                </div>
+                <h3>Power Grid Solutions</h3>
+                <p>Comprehensive infrastructure for reliable and efficient power systems</p>
+                <a href="solutions.html#power" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class="ri-wifi-fill"></i>
+                </div>
+                <h3>FTTH - GPON</h3>
+                <p>Fiber to the Home with Gigabit Passive Optical Network solutions</p>
+                <a href="solutions.html#ftth" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class="ri-base-station-fill"></i>
+                </div>
+                <h3>Fiber Optic Solutions</h3>
+                <p>High-speed connectivity with advanced fiber optic cable infrastructure</p>
+                <a href="solutions.html#fiber" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-icon">
+                    <i class="ri-cctv-fill"></i>
+                </div>
+                <h3>Security Systems</h3>
+                <p>Advanced surveillance and security monitoring solutions</p>
+                <a href="solutions.html#security" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-primary to-blue-700 z-0"></div>
+    <div class="absolute inset-0 bg-pattern opacity-10 z-1"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl mx-auto text-center text-white">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Ready to Transform Your Infrastructure?</h2>
+            <p class="text-xl mb-10 text-white/90" data-aos="fade-up" data-aos-delay="100">
+                Partner with 3E Hitech Solutions for innovative and reliable technology solutions
+            </p>
+            <div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                <a href="contact.html" class="cta-button primary">
+                    Contact Us
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+                <a href="solutions.html" class="cta-button secondary">
+                    Explore Solutions
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Floating Action Buttons -->
+<div id="chatbot-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
+
+    <!-- Chatbot Toggle Button -->
+    <button id="chatbot-toggle" aria-label="Open chat">
+        <i class="ri-message-3-fill text-xl"></i>
+    </button>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-window" class="hidden">
+    <div class="chatbot-header">
+        <h3>Chat with Robbie</h3>
+        <button id="chatbot-close" aria-label="Close chat">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+    <div id="chatbot-messages">
+        <div class="message bot">
+            Hello! I'm Robbie, your friendly 3E Hitech assistant! How can I help you today?
+        </div>
+    </div>
+    <div class="chatbot-input-area">
+        <textarea id="chatbot-input" placeholder="Type your message..." rows="1"></textarea>
+        <button id="chatbot-send" aria-label="Send message">
+            <i class="ri-send-plane-fill"></i>
+        </button>
+    </div>
+</div>
+
+
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="../scr/c.js"></script>
+<script src="../scr/zzz.js"></script>
+<script src="../ins/header.js"></script>
+<script src="../ins/scroll.js"></script>
+<script src="../ins/chatbot.js"></script>
+<script src="../ins/footer.js"></script>
+
+</body>
+</html>

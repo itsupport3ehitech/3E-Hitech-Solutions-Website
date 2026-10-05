@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security Headers -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https:; media-src 'self'; connect-src 'self'; frame-src https://www.google.com;">
+
+    <title>3E Hitech Solutions Inc. - Contact Us</title>
+    <link rel="icon" href="../src/favicon/favicon.png" type="image/png">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="../sss/e.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="font-['Inter'] text-gray-800 overflow-x-hidden">
+
+<!-- Header -->
+<div id="header-container"></div>
+
+<!-- Hero Section -->
+<section class="hero-section relative overflow-hidden">
+    <!-- Video background -->
+    <video class="video-background" autoplay muted loop playsinline preload="metadata" poster="../src/imgs/contact/contact-hero.jpg">
+        <source src="../src/live/careers/forContact.mp4" type="video/mp4">
+        <!-- Fallback image if video doesn't load -->
+        <img src="../src/imgs/contact/contact-hero.jpg" alt="Contact Hero" class="absolute inset-0 z-0 w-full h-full object-cover">
+    </video>
+    
+    <!-- Professional gradient overlay -->
+    <div class="hero-overlay"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <i class="ri-shield-check-line"></i>
+                <span>Trusted Infrastructure Partner</span>
+            </div>
+            
+            <h1 class="hero-title" data-aos="fade-up">Get In Touch With Excellence</h1>
+            
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Partner with the Philippines' leading infrastructure solutions provider. Our expert team delivers world-class power grid and telecommunications solutions tailored to your business needs.
+            </p>
+            
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="150">
+                <a href="#contact-form" class="hero-button hero-button-primary">
+                    <i class="ri-mail-send-line"></i>
+                    <span>Send Message</span>
+                </a>
+                <a href="tel:+639985875995" class="hero-button hero-button-secondary">
+                    <i class="ri-phone-line"></i>
+                    <span>Call Now</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Info Cards -->
+<section class="relative -mt-16 z-10 mb-16">
+    <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+            <a href="#map-section" class="contact-card" data-aos="fade-up">
+                <div class="contact-icon">
+                    <i class="ri-map-pin-line"></i>
+                </div>
+                <h3>View Locations</h3>
+                <p>Check our locations on the map</p>
+                <div class="contact-link">Redirect Here<i class="ri-arrow-right-line"></i></div>
+            </a>
+            
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-icon">
+                    <i class="ri-phone-line"></i>
+                </div>
+                <h3>Call Us</h3>
+                <p>+63998-587-5995</p>
+                <p>Monday - Friday: 8:30 AM - 5:30 PM</p>
+            </div>
+
+            <a href="#inquiry-options" class="contact-card" data-aos="fade-up">
+                <div class="contact-icon">
+                    <i class="ri-mail-line"></i>
+                </div>
+                <h3>Go to Inquiry Options</h3>
+                <p>Choose your preferred way to get in touch with us</p>
+                <div class="contact-link">Redirect Here<i class="ri-arrow-right-line"></i></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Options Section -->
+<section id="inquiry-options" class="inquiry-hero min-h-screen relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-gray-50 to-blue-50/20"></div>
+    <div class="absolute top-20 left-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-10 w-80 h-80 bg-blue-300/5 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 py-24 relative z-10">
+        <div class="text-center mb-16">
+            <span class="inline-block px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4 shadow-sm hover:shadow transition-all duration-300 hover:-translate-y-0.5">
+                <span class="mr-1.5 inline-block">✦</span>Contact Options<span class="ml-1.5 inline-block">✦</span>
+            </span>
+            
+            <h2 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-blue-500 to-primary bg-clip-text text-transparent mb-4 pb-1">Choose Your Inquiry Type</h2>
+            
+            <p class="text-gray-600 max-w-2xl mx-auto mb-6">We're here to help! Select the inquiry type that best fits your needs and we'll get back to you as soon as possible.</p>
+        </div>
+
+        <!-- Inquiry Tabs -->
+        <div class="inquiry-tabs flex flex-wrap justify-center gap-2 mb-12" data-aos="fade-up">
+            <button class="inquiry-tab active" data-tab="general">
+                <i class="ri-information-line"></i>
+                <span>General Company Inquiry</span>
+            </button>
+            <button class="inquiry-tab" data-tab="sales">
+                <i class="ri-shopping-cart-line"></i>
+                <span>General Sales Inquiry</span>
+            </button>
+            <button class="inquiry-tab" data-tab="ngcp">
+                <i class="ri-flashlight-line"></i>
+                <span>NGCP & Power Utilities</span>
+            </button>
+            <button class="inquiry-tab" data-tab="telco">
+                <i class="ri-signal-tower-line"></i>
+                <span>TELCO</span>
+            </button>
+            <button class="inquiry-tab" data-tab="isp">
+                <i class="ri-wifi-line"></i>
+                <span>ISP</span>
+            </button>
+        </div>
+
+        <!-- Inquiry Forms -->
+        <div class="max-w-4xl mx-auto" data-aos="fade-up">
+            <!-- General Company Inquiry Form -->
+            <div class="inquiry-form active" id="form-general">
+                <div class="contact-form">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">General Company Inquiry</h3>
+                        <p class="text-gray-600">For general questions about our company and services</p>
+                    </div>
+                    
+                    <form class="inquiry-form-element" data-email="hr@3ehitech.com">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="general-name">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="general-name" name="name" required class="form-input" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="general-email">Email Address <span class="text-red-500">*</span></label>
+                                <input type="email" id="general-email" name="email" required class="form-input" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="general-phone">Phone Number</label>
+                                <input type="tel" id="general-phone" name="phone" class="form-input" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="general-company">Company</label>
+                                <input type="text" id="general-company" name="company" class="form-input" placeholder="Enter your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="general-subject">Subject <span class="text-red-500">*</span></label>
+                            <input type="text" id="general-subject" name="subject" required class="form-input" placeholder="Enter subject">
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="general-message">Message <span class="text-red-500">*</span></label>
+                            <textarea id="general-message" name="message" rows="6" required class="form-input" placeholder="Enter your message"></textarea>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">
+                                Send Inquiry
+                                <i class="ri-send-plane-line ml-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Sales Inquiry Form -->
+            <div class="inquiry-form" id="form-sales">
+                <div class="contact-form">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">General Sales Inquiry</h3>
+                        <p class="text-gray-600">For sales inquiries, quotations, and project proposals</p>
+                    </div>
+                    
+                    <form class="inquiry-form-element" data-email="sales@3ehitech.com">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="sales-name">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="sales-name" name="name" required class="form-input" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="sales-email">Email Address <span class="text-red-500">*</span></label>
+                                <input type="email" id="sales-email" name="email" required class="form-input" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="sales-phone">Phone Number</label>
+                                <input type="tel" id="sales-phone" name="phone" class="form-input" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="sales-company">Company <span class="text-red-500">*</span></label>
+                                <input type="text" id="sales-company" name="company" required class="form-input" placeholder="Enter your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="sales-subject">Subject <span class="text-red-500">*</span></label>
+                            <input type="text" id="sales-subject" name="subject" required class="form-input" placeholder="Enter subject">
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="sales-message">Project Details <span class="text-red-500">*</span></label>
+                            <textarea id="sales-message" name="message" rows="6" required class="form-input" placeholder="Please describe your project requirements"></textarea>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">
+                                Request Quote
+                                <i class="ri-send-plane-line ml-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- NGCP Form -->
+            <div class="inquiry-form" id="form-ngcp">
+                <div class="contact-form">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">NGCP & Power Utilities</h3>
+                        <p class="text-gray-600">For power grid infrastructure and utility projects</p>
+                    </div>
+                    
+                    <form class="inquiry-form-element" data-email="randy.reyes@3ehitech.com">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="ngcp-name">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="ngcp-name" name="name" required class="form-input" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="ngcp-email">Email Address <span class="text-red-500">*</span></label>
+                                <input type="email" id="ngcp-email" name="email" required class="form-input" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="ngcp-phone">Phone Number</label>
+                                <input type="tel" id="ngcp-phone" name="phone" class="form-input" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="ngcp-organization">Organization <span class="text-red-500">*</span></label>
+                                <input type="text" id="ngcp-organization" name="organization" required class="form-input" placeholder="Enter your organization">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="ngcp-subject">Subject <span class="text-red-500">*</span></label>
+                            <input type="text" id="ngcp-subject" name="subject" required class="form-input" placeholder="Enter subject">
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="ngcp-message">Project Requirements <span class="text-red-500">*</span></label>
+                            <textarea id="ngcp-message" name="message" rows="6" required class="form-input" placeholder="Please describe your power utility project requirements"></textarea>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">
+                                Submit Inquiry
+                                <i class="ri-send-plane-line ml-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- TELCO Form -->
+            <div class="inquiry-form" id="form-telco">
+                <div class="contact-form">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">TELCO Solutions</h3>
+                        <p class="text-gray-600">For telecommunications infrastructure and solutions</p>
+                    </div>
+                    
+                    <form class="inquiry-form-element" data-email="ben.cabrera@3ehitech.com">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="telco-name">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="telco-name" name="name" required class="form-input" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="telco-email">Email Address <span class="text-red-500">*</span></label>
+                                <input type="email" id="telco-email" name="email" required class="form-input" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="telco-phone">Phone Number</label>
+                                <input type="tel" id="telco-phone" name="phone" class="form-input" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="telco-company">Company <span class="text-red-500">*</span></label>
+                                <input type="text" id="telco-company" name="company" required class="form-input" placeholder="Enter your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="telco-subject">Subject <span class="text-red-500">*</span></label>
+                            <input type="text" id="telco-subject" name="subject" required class="form-input" placeholder="Enter subject">
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="telco-message">Project Details <span class="text-red-500">*</span></label>
+                            <textarea id="telco-message" name="message" rows="6" required class="form-input" placeholder="Please describe your telecommunications project requirements"></textarea>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">
+                                Submit Inquiry
+                                <i class="ri-send-plane-line ml-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ISP Form -->
+            <div class="inquiry-form" id="form-isp">
+                <div class="contact-form">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">ISP Solutions</h3>
+                        <p class="text-gray-600">For internet service provider infrastructure and solutions</p>
+                    </div>
+                    
+                    <form class="inquiry-form-element" data-email="owen.mondejar@3ehitech.com">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="isp-name">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="isp-name" name="name" required class="form-input" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="isp-email">Email Address <span class="text-red-500">*</span></label>
+                                <input type="email" id="isp-email" name="email" required class="form-input" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="form-group">
+                                <label for="isp-phone">Phone Number</label>
+                                <input type="tel" id="isp-phone" name="phone" class="form-input" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="isp-company">Company <span class="text-red-500">*</span></label>
+                                <input type="text" id="isp-company" name="company" required class="form-input" placeholder="Enter your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="isp-subject">Subject <span class="text-red-500">*</span></label>
+                            <input type="text" id="isp-subject" name="subject" required class="form-input" placeholder="Enter subject">
+                        </div>
+                        
+                        <div class="form-group mb-6">
+                            <label for="isp-message">Infrastructure Requirements <span class="text-red-500">*</span></label>
+                            <textarea id="isp-message" name="message" rows="6" required class="form-input" placeholder="Please describe your ISP infrastructure needs"></textarea>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">
+                                Submit Inquiry
+                                <i class="ri-send-plane-line ml-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Map Section -->
+<section id="map-section" class="py-16 relative overflow-hidden">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <div class="section-subtitle" data-aos="fade-up">Our Location</div>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Find Us On The Map</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Visit us in Metro Manila
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div data-aos="fade-up">
+                <h3 class="font-medium text-gray-900 mb-2">Office Address</h3>
+                <p class="text-gray-600 text-sm mb-3">H26C+HGR, Sen. Gil J. Puyat Ave, Makati City, Metro Manila</p>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.656042645966!2d121.01924327558798!3d14.56165147802808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9086e482eaf%3A0x521fba72cfaa6d01!2sThe%20World%20Center%2C%20Sen.%20Gil%20J.%20Puyat%20Ave%2C%20Makati%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1763522660614!5m2!1sen!2sph"
+                        width="100%" 
+                        height="300"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+    
+            <div data-aos="fade-up" data-aos-delay="100">
+                <h3 class="font-medium text-gray-900 mb-2">Business Address</h3>
+                <p class="text-gray-600 text-sm mb-3">Business Address: 33 Ortigas, Pasay City, Kalakhang Maynila</p>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18909.578231775955!2d120.9971172800932!3d14.537328528293129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c950bf94a26d%3A0xe30bec9391ac0624!2zUmljaHZpZXcgUmVzaWRlbmNlcyDosarmma_lpKflu4g!5e0!3m2!1sen!2sph!4v1763516956758!5m2!1sen!2sph"
+                        width="100%" 
+                        height="300"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-16 bg-gray-50 relative overflow-hidden">
+    <!-- Background elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-300/5 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative">
+        <div class="text-center mb-16">
+            <div class="section-subtitle" data-aos="fade-up">Questions & Answers</div>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Frequently Asked Questions</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Find answers to common questions about our services and solutions
+            </p>
+        </div>
+        
+        <div class="max-w-4xl mx-auto">
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What services does 3E Hitech Solutions provide?</span>
+                        <i class="ri-add-line faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>3E Hitech Solutions provides comprehensive services for power grid and telecom networks, including engineering, procurement, construction, and commissioning (EPCC). Our solutions include power grid infrastructure, fiber optic networks, FTTH-GPON systems, and security systems.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can I request a quote for your services?</span>
+                        <i class="ri-add-line faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can request a quote by filling out our contact form on this page, sending an email to sales@3ehitech.com, or calling us directly at +63998-587-5995. Please provide details about your project requirements for an accurate quote.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide services outside Metro Manila?</span>
+                        <i class="ri-add-line faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide services throughout the Philippines. Our team has completed projects in various regions across the country, and we have the capability to deploy our experts wherever they are needed.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What makes 3E Hitech Solutions different from other providers?</span>
+                        <i class="ri-add-line faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>3E Hitech Solutions stands out due to our comprehensive approach, technical expertise, and approved partnerships with NGCP and major telecom companies. We offer end-to-end solutions, from engineering and design to implementation and maintenance, ensuring seamless project execution.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How quickly can you respond to service requests?</span>
+                        <i class="ri-add-line faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We typically respond to service requests within 24-48 hours. For urgent matters, we have a dedicated team that can provide faster response times. Our commitment is to ensure minimal downtime and quick resolution of issues.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Floating Action Buttons -->
+<div id="chatbot-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
+
+    <!-- Chatbot Toggle Button -->
+    <button id="chatbot-toggle" aria-label="Open chat">
+        <i class="ri-message-3-fill text-xl"></i>
+    </button>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-window" class="hidden">
+    <div class="chatbot-header">
+        <h3>Chat with Robbie</h3>
+        <button id="chatbot-close" aria-label="Close chat">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+    <div id="chatbot-messages">
+        <div class="message bot">
+            Hello! I'm Robbie, your friendly 3E Hitech assistant! How can I help you today?
+        </div>
+    </div>
+    <div class="chatbot-input-area">
+        <textarea id="chatbot-input" placeholder="Type your message..." rows="1"></textarea>
+        <button id="chatbot-send" aria-label="Send message">
+            <i class="ri-send-plane-fill"></i>
+        </button>
+    </div>
+</div>
+
+
+<!-- Success Message Modal -->
+<div id="successModal" class="fixed inset-0 flex items-center justify-center z-50 hidden">
+    <div class="modal-overlay absolute inset-0 bg-black opacity-50"></div>
+    <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded-lg shadow-lg z-50 overflow-y-auto">
+        <div class="modal-content py-6 px-8 text-center">
+            <div class="success-icon mb-4">
+                <i class="ri-check-line"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Message Sent!</h3>
+            <p class="text-gray-600 mb-6">Thank you for contacting us. We'll get back to you as soon as possible.</p>
+            <button id="closeModal" class="btn-primary">
+                Close
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../scr/e.js"></script>
+<script src="../scr/zzz.js"></script>
+<script src="../ins/header.js"></script>
+<script src="../ins/scroll.js"></script>
+<script src="../ins/chatbot.js"></script>
+<script src="../ins/footer.js"></script>
+
+</body>
+</html>

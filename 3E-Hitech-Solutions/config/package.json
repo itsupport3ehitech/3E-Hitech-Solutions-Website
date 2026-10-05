@@ -1,0 +1,12 @@
+{
+  "name": "3ehitech-website",
+  "version": "1.0.0",
+  "description": "3E Hitech Solutions Inc. Website",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}

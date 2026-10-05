@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security Headers -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https:; media-src 'self'; connect-src 'self'; frame-src 'none';">
+
+    <title>3E Hitech Solutions Inc. - Homepage</title>
+    <link rel="icon" href="src/favicon/favicon.png" type="image/png">
+    <link href="dist/output.css" rel="stylesheet">
+    <link href="sss/a.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="font-['Inter'] text-gray-800 overflow-x-hidden">
+
+<!-- Header -->
+<div id="header-container"></div>
+
+<!-- Home -->
+<section id="home" class="hero-section relative min-h-screen flex items-center" style="padding-top: 80px;">
+    <video autoplay muted loop class="hero-video">
+        <source src="src/live/home/forHome.mp4" type="video/mp4">
+    </video>
+    <div class="container mx-auto px-4 z-10 w-full">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="w-full text-white hero-content">
+                <div class="badge-animated mb-4 inline-block">
+                    <span class="px-4 py-1.5 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium flex items-center gap-2">
+                        <span class="animate-pulse w-2 h-2 bg-green-400 rounded-full"></span>
+                        Trusted by Leading Companies
+                    </span>
+                </div>
+
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight hero-title">
+                    <span class="gradient-text">Integrated Solutions</span> for Power Grid & Telecom Networks
+                </h1>
+                <p class="text-xl mb-8 hero-description">3E Hitech Solutions Inc. provides comprehensive engineering, procurement, construction, and commissioning services as an approved partner of NGCP and major telecom companies in the Philippines.</p>
+                <div class="flex flex-wrap gap-4 hero-cta">
+                    <a href="ps/solutions.html" class="primary-button">
+                        <span>Our Solutions</span>
+                        <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                    <a href="ps/contact.html" class="secondary-button">
+                        <span>Contact Us</span>
+                        <i class="ri-customer-service-2-line ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-24 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-1/3 h-1/3 bg-gradient-to-br from-primary/5 to-blue-300/5 rounded-bl-full"></div>
+    <div class="absolute bottom-0 left-0 w-1/4 h-1/4 bg-gradient-to-tr from-primary/5 to-blue-300/5 rounded-tr-full"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center mb-16">
+            <span class="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">Established 2016</span>
+            <h2 class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent mb-4">About 3E Hitech Solutions</h2>
+            <div class="w-24 h-1.5 bg-gradient-to-r from-primary to-blue-400 mx-auto rounded-full"></div>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="about-image-container relative">
+                <div class="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-primary/30 rounded-tl-3xl"></div>
+                <div class="absolute -bottom-4 -right-4 w-24 h-24 border-b-4 border-r-4 border-primary/30 rounded-br-3xl"></div>
+                <img src="src/imgs/main/company.png" alt="3E Hitech Solutions Office" class="rounded-xl shadow-2xl w-full h-auto object-cover transform transition-transform duration-700 hover:scale-105 about-image">
+                <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg">
+                    <div class="text-primary font-bold text-xl">9+</div>
+                    <div class="text-gray-600 text-sm">Years Experience</div>
+                </div>
+            </div>
+            
+            <div class="about-content space-y-6">
+                <div class="inline-flex items-center gap-2 mb-2">
+                    <div class="w-8 h-1 bg-primary rounded-full"></div>
+                    <h3 class="text-2xl font-bold text-gray-800">Who We Are</h3>
+                </div>
+                
+                <p class="text-gray-700 leading-relaxed">
+                    The company was established in the year of 2016 and continuously provides integrated solutions for ICT/Telecom networks and power.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+                    <div class="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-primary">
+                        <div class="text-primary mb-2"><i class="ri-shield-check-line text-2xl"></i></div>
+                        <h4 class="font-semibold text-gray-800">Trusted Partner</h4>
+                        <p class="text-sm text-gray-600">Of NGCP and major telecom companies in the Philippines</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-blue-400">
+                        <div class="text-blue-400 mb-2"><i class="ri-service-line text-2xl"></i></div>
+                        <h4 class="font-semibold text-gray-800">Complete EPCC</h4>
+                        <p class="text-sm text-gray-600">Engineering, procurement, construction, and commissioning services</p>
+                    </div>
+                </div>
+                
+                <p class="text-gray-700 leading-relaxed">
+                    Our services include substations, transmission lines, renewable energy, and telecom infrastructure. We are one of the main suppliers of power conductors, fiber optic cables, routers, switches, and GPON in the Philippines.
+                </p>
+                
+                <div class="flex gap-4 pt-4">
+                    <a href="ps/about.html" class="group inline-flex items-center gap-2 bg-gradient-to-r from-primary to-blue-500 text-white px-6 py-3 rounded-full font-semibold overflow-hidden relative shadow-md hover:shadow-lg transition-all duration-300">
+                        <span class="relative z-10">Learn more about us</span>
+                        <div class="relative z-10 w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                            <i class="ri-arrow-right-line text-white transition-transform duration-300 group-hover:translate-x-0.5"></i>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-primary transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Solutions Section -->
+<section id="home-services" class="services-hero min-h-screen relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-gray-50 to-blue-50/20"></div>
+    <div class="absolute top-20 left-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-10 w-80 h-80 bg-blue-300/5 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 py-24 relative z-10">
+        <div class="text-center mb-16">
+            <span class="inline-block px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4 shadow-sm hover:shadow transition-all duration-300 hover:-translate-y-0.5">
+                <span class="mr-1.5 inline-block">✦</span>Professional Services<span class="ml-1.5 inline-block">✦</span>
+            </span>
+            
+            <h2 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-blue-500 to-primary bg-clip-text text-transparent mb-4 pb-1">Our Solutions</h2>
+            
+            <p class="text-gray-600 max-w-2xl mx-auto mb-6">Delivering excellence in power grid and telecommunications solutions with industry-leading expertise</p>
+        </div>
+
+        <div class="text-center mt-20">
+            <a href="ps/solutions.html" class="group relative inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-primary to-blue-500 text-white px-4 sm:px-6 md:px-8 lg:px-10 py-3 sm:py-4 rounded-full font-semibold overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 text-sm sm:text-base">
+                <span class="relative z-10">Explore All Solutions</span>
+                <div class="relative z-10 w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                    <i class="ri-arrow-right-line text-white transition-transform duration-300 group-hover:translate-x-1"></i>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-primary transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- What We Offer Section -->
+<section id="what-we-offer" class="py-24 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/95 to-blue-700/95 z-0"></div>
+    
+    <div class="absolute inset-0 opacity-20">
+        <div class="absolute top-0 left-0 w-full h-full">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="grid-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M0 20 L40 20 M20 0 L20 40" stroke="#ffffff" stroke-width="0.5" class="network-line"></path>
+                    <circle cx="20" cy="20" r="1" fill="#ffffff" class="glow-dot"></circle>
+                </pattern>
+                <rect width="100%" height="100%" fill="url(#grid-pattern)"></rect>
+            </svg>
+        </div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center mb-16 relative">
+            <div class="inline-flex items-center justify-center relative mb-4">
+                <span class="inline-block px-4 py-1 bg-white/10 text-white rounded-full text-sm font-medium mb-4 backdrop-blur-sm border border-white/10 shadow-lg shadow-primary/10">
+                    <span class="animate-pulse inline-block w-2 h-2 bg-white rounded-full mr-2"></span>
+                    Our Expertise
+                </span>
+            </div>
+            
+            <h2 class="text-4xl font-bold text-white mb-4 relative">
+                What We Offer
+                <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+            </h2>
+            
+            <p class="text-white/80 max-w-2xl mx-auto">Comprehensive solutions tailored to meet your power and telecommunications needs</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            <div class="offer-card group relative bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white overflow-hidden transition-all duration-500 hover:bg-white/20 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border border-white/10">
+                <div class="offer-icon mb-6 text-white relative z-10 w-16 h-16 rounded-full bg-gradient-to-br from-primary/30 to-blue-500/30 flex items-center justify-center group-hover:scale-110 transition-all duration-500">
+                    <i class="ri-flashlight-line text-4xl group-hover:animate-pulse"></i>
+                </div>
+                
+                <h3 class="text-xl font-bold mb-3 relative z-10 group-hover:text-blue-200 transition-colors duration-300">Premium Solutions</h3>
+                <p class="text-white/70 mb-6 relative z-10 group-hover:text-white/90 transition-colors duration-300">Comprehensive infrastructure solutions.</p>
+                
+                <div class="offer-stats flex items-center text-white/60 text-sm group-hover:text-white/80 transition-colors duration-300">
+                    <div class="flex items-center gap-2">
+                        <div class="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center">
+                            <i class="ri-checkbox-circle-line"></i>
+                        </div>
+                        <span>100+ Projects</span>
+                    </div>
+                </div>
+                
+                <div class="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-blue-400 to-primary w-0 group-hover:w-full transition-all duration-500"></div>
+            </div>
+            
+            <div class="offer-card group relative bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white overflow-hidden transition-all duration-500 hover:bg-white/20 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border border-white/10">
+                <div class="offer-icon mb-6 text-white relative z-10 w-16 h-16 rounded-full bg-gradient-to-br from-primary/30 to-blue-500/30 flex items-center justify-center group-hover:scale-110 transition-all duration-500">
+                    <i class="ri-base-station-line text-4xl group-hover:animate-pulse"></i>
+                </div>
+                
+                <h3 class="text-xl font-bold mb-3 relative z-10 group-hover:text-blue-200 transition-colors duration-300">Reliability Services</h3>
+                <p class="text-white/70 mb-6 relative z-10 group-hover:text-white/90 transition-colors duration-300">Focus on ensuring that systems, products, or services consistently perform their intended functions over time without failure.</p>
+                
+                <div class="offer-stats flex items-center text-white/60 text-sm group-hover:text-white/80 transition-colors duration-300">
+                    <div class="flex items-center gap-2">
+                        <div class="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center">
+                            <i class="ri-building-line"></i>
+                        </div>
+                        <span>Corporate Clients</span>
+                    </div>
+                </div>
+                
+                <div class="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-blue-400 to-primary w-0 group-hover:w-full transition-all duration-500"></div>
+            </div>
+            
+            <div class="offer-card group relative bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white overflow-hidden transition-all duration-500 hover:bg-white/20 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border border-white/10">
+                <div class="offer-icon mb-6 text-white relative z-10 w-16 h-16 rounded-full bg-gradient-to-br from-primary/30 to-blue-500/30 flex items-center justify-center group-hover:scale-110 transition-all duration-500">
+                    <i class="ri-team-line text-4xl group-hover:animate-pulse"></i>
+                </div>
+                
+                <h3 class="text-xl font-bold mb-3 relative z-10 group-hover:text-blue-200 transition-colors duration-300">Expert Team</h3>
+                <p class="text-white/70 mb-6 relative z-10 group-hover:text-white/90 transition-colors duration-300">Highly skilled professionals with extensive industry experience.</p>
+                
+                <div class="offer-stats flex items-center text-white/60 text-sm group-hover:text-white/80 transition-colors duration-300">
+                    <div class="flex items-center gap-2">
+                        <div class="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center">
+                            <i class="ri-user-star-line"></i>
+                        </div>
+                        <span>Skilled Professionals</span>
+                    </div>
+                </div>
+                
+                <div class="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-blue-400 to-primary w-0 group-hover:w-full transition-all duration-500"></div>
+            </div>
+            
+            <div class="offer-card group relative bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white overflow-hidden transition-all duration-500 hover:bg-white/20 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border border-white/10">
+                <div class="offer-icon mb-6 text-white relative z-10 w-16 h-16 rounded-full bg-gradient-to-br from-primary/30 to-blue-500/30 flex items-center justify-center group-hover:scale-110 transition-all duration-500">
+                    <i class="ri-award-line text-4xl group-hover:animate-pulse"></i>
+                </div>
+                
+                <h3 class="text-xl font-bold mb-3 relative z-10 group-hover:text-blue-200 transition-colors duration-300">Industry Experience</h3>
+                <p class="text-white/70 mb-6 relative z-10 group-hover:text-white/90 transition-colors duration-300">Decade-long expertise in delivering high-quality solutions.</p>
+                
+                <div class="offer-stats flex items-center text-white/60 text-sm group-hover:text-white/80 transition-colors duration-300">
+                    <div class="flex items-center gap-2">
+                        <div class="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center">
+                            <i class="ri-calendar-check-line"></i>
+                        </div>
+                        <span>9+ Years of Excellence</span>
+                    </div>
+                </div>
+                
+                <div class="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-blue-400 to-primary w-0 group-hover:w-full transition-all duration-500"></div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-16">
+            <a href="ps/solutions.html" class="group relative inline-flex items-center gap-3 bg-white text-primary px-10 py-4 rounded-full font-semibold overflow-hidden shadow-lg hover:shadow-xl">
+                <span class="relative z-10">Learn More About Our Solutions</span>
+                <div class="relative z-10 w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300">
+                    <i class="ri-arrow-right-line text-primary transition-transform duration-300 group-hover:translate-x-1"></i>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-white via-blue-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-primary/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20">
+            <div class="stat-counter text-center">
+                <div class="text-3xl font-bold text-white mb-2 flex items-center justify-center">
+                    <span class="counter-value">100</span>
+                    <span class="text-blue-300 ml-1">+</span>
+                </div>
+                <p class="text-white/70 text-sm">Projects Completed</p>
+            </div>
+            <div class="stat-counter text-center">
+                <div class="text-3xl font-bold text-white mb-2 flex items-center justify-center">
+                    <span class="counter-value">50</span>
+                    <span class="text-blue-300 ml-1">+</span>
+                </div>
+                <p class="text-white/70 text-sm">Corporate Clients</p>
+            </div>
+            <div class="stat-counter text-center">
+                <div class="text-3xl font-bold text-white mb-2 flex items-center justify-center">
+                    <span class="counter-value">9</span>
+                    <span class="text-blue-300 ml-1">+</span>
+                </div>
+                <p class="text-white/70 text-sm">Years Experience</p>
+            </div>
+            <div class="stat-counter text-center">
+                <div class="text-3xl font-bold text-white mb-2 flex items-center justify-center">
+                    <span class="counter-value">100</span>
+                    <span class="text-blue-300 ml-1">%</span>
+                </div>
+                <p class="text-white/70 text-sm">Client Satisfaction</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Floating Action Buttons -->
+<div id="chatbot-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
+
+    <!-- Chatbot Toggle Button -->
+    <button id="chatbot-toggle" aria-label="Open chat">
+        <i class="ri-message-3-fill text-xl"></i>
+    </button>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-window" class="hidden">
+    <div class="chatbot-header">
+        <h3>Chat with Robbie</h3>
+        <button id="chatbot-close" aria-label="Close chat">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+    <div id="chatbot-messages">
+        <div class="message bot">
+            Hello! I'm Robbie, your friendly 3E Hitech assistant! How can I help you today?
+        </div>
+    </div>
+    <div class="chatbot-input-area">
+        <textarea id="chatbot-input" placeholder="Type your message..." rows="1"></textarea>
+        <button id="chatbot-send" aria-label="Send message">
+            <i class="ri-send-plane-fill"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<!-- JavaScript -->
+<script src="scr/a.js"></script>
+<script src="scr/zzz.js"></script>
+<script src="ins/header.js"></script>
+<script src="ins/scroll.js"></script>
+<script src="ins/chatbot.js"></script>
+<script src="ins/footer.js"></script>
+
+</body>
+</html>
+ 

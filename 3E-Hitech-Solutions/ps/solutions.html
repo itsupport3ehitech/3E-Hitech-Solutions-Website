@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security Headers -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https:; media-src 'self'; connect-src 'self'; frame-src 'none';">
+
+    <title>3E Hitech Solutions Inc. - Solutions</title>
+    <link rel="icon" href="../src/favicon/favicon.png" type="image/png">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="../sss/b.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white">
+
+<!-- Header -->
+<div id="header-container"></div>
+
+<!-- Hero Section -->
+<section class="hero-section relative overflow-hidden">
+    <!-- Video Background -->
+    <div class="video-background absolute inset-0 z-0">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+            <source src="../src/live/solutions/forSolutions.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-gradient-to-br from-primary/70 via-blue-800/70 to-blue-900/70"></div>
+    </div>
+    
+
+    
+    <div class="container mx-auto px-4 relative z-10 py-40">
+        <div class="text-center hero-content">
+            <div class="hero-badge">
+                <i class="ri-flashlight-line mr-1"></i> Innovative Technology Solutions
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight hero-title text-shadow-lg">
+                Transforming Business with <span class="text-gradient">Advanced Solutions</span>
+            </h1>
+            <p class="text-xl text-white/90 max-w-3xl mx-auto hero-subtitle">
+                Cutting-edge technology solutions designed to meet your modern infrastructure needs
+            </p>
+            <div class="mt-8">
+                <a href="#power" class="hero-cta">
+                    Explore Solutions <i class="ri-arrow-right-line"></i>
+                </a>
+                <a href="contact.html" class="hero-cta-secondary">
+                    Contact Us <i class="ri-customer-service-line"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Solutions Categories -->
+<section class="py-16 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 opacity-5">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center mb-16">
+            <div class="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full font-medium mb-4 animate-pulse">
+                <i class="ri-star-fill"></i> What We Offer
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-6 bg-gradient-to-r from-gray-900 to-primary bg-clip-text text-transparent">Comprehensive Technology Solutions</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">Discover our innovative range of cutting-edge solutions designed to transform your infrastructure and drive business success</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <a href="#power" class="solution-category-card group">
+                <div class="solution-icon group-hover:animate-bounce">
+                    <i class="ri-flashlight-fill"></i>
+                    <div class="icon-glow"></div>
+                </div>
+                <h3>POWER</h3>
+                <p>ICT Equipment, MW Radio, OPGW, Battery & Rectifier, Security</p>
+                <div class="card-stats">
+                    <span class="stat-badge">5+ Services</span>
+                </div>
+            </a>
+            
+            <a href="#ftth" class="solution-category-card group">
+                <div class="solution-icon group-hover:animate-bounce">
+                    <i class="ri-wifi-fill"></i>
+                    <div class="icon-glow"></div>
+                </div>
+                <h3>FTTH - GPON</h3>
+                <p>Fiber to the Home with Gigabit Passive Optical Network</p>
+                <div class="card-stats">
+                    <span class="stat-badge">Gigabit Speed</span>
+                </div>
+            </a>
+            
+            <a href="#fiber" class="solution-category-card group">
+                <div class="solution-icon group-hover:animate-bounce">
+                    <i class="ri-base-station-fill"></i>
+                    <div class="icon-glow"></div>
+                </div>
+                <h3>FIBER - FOC</h3>
+                <p>Fiber Optic Cable solutions for high-speed connectivity</p>
+                <div class="card-stats">
+                    <span class="stat-badge">Ultra Fast</span>
+                </div>
+            </a>
+            
+            <a href="#security" class="solution-category-card group">
+                <div class="solution-icon group-hover:animate-bounce">
+                    <i class="ri-cctv-fill"></i>
+                    <div class="icon-glow"></div>
+                </div>
+                <h3>SECURITY - CCTV</h3>
+                <p>Advanced surveillance and security monitoring systems</p>
+                <div class="card-stats">
+                    <span class="stat-badge">24/7 Monitor</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Power Solutions -->
+<section id="power" class="pt-20 pb-2 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+        <div class="power-grid-animation"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="flex flex-col lg:flex-row items-center gap-12 mb-16">
+            <div class="lg:w-1/2">
+                <div class="solution-image-wrapper">
+                    <img src="../src/imgs/solutions/photo1.jpg" alt="Power Solutions" class="solution-image">
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <div class="inline-flex items-center gap-3 bg-primary/10 text-primary px-6 py-3 rounded-full font-bold text-lg mb-6">
+                    <span class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold">01</span>
+                    <i class="ri-flashlight-fill text-2xl animate-pulse"></i>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">POWER Solutions</h2>
+                <p class="text-gray-600 mb-8 text-lg leading-relaxed">Comprehensive power infrastructure solutions engineered for maximum reliability and optimal performance</p>
+                
+                <div class="space-y-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-server-fill"></i>
+                        </div>
+                        <div>
+                            <h4>ICT Equipment</h4>
+                            <p>Servers, routers, switches, and enterprise-grade hardware</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-broadcast-fill"></i>
+                        </div>
+                        <div>
+                            <h4>MW Radio & OPGW</h4>
+                            <p>Microwave transmission and optical ground wire solutions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-battery-2-charge-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Power & Security</h4>
+                            <p>Battery systems, rectifiers, and firewall protection</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="solution-detail-card group">
+                <div class="solution-detail-icon group-hover:scale-110 transition-all duration-300">
+                    <i class="ri-server-fill"></i>
+                </div>
+                <h3 class="group-hover:text-primary transition-colors duration-300">ICT Equipment</h3>
+                <ul class="solution-features">
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Servers & Data Storage</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Network Routers</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Network Switches</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Enterprise-grade Hardware</li>
+                </ul>
+                <div class="card-hover-effect"></div>
+            </div>
+            
+            <div class="solution-detail-card group">
+                <div class="solution-detail-icon group-hover:scale-110 transition-all duration-300">
+                    <i class="ri-broadcast-fill"></i>
+                </div>
+                <h3 class="group-hover:text-primary transition-colors duration-300">MW Radio</h3>
+                <ul class="solution-features">
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Point-to-Point Radio</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Microwave Transmission</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>High Capacity Links</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Long-distance Communication</li>
+                </ul>
+                <div class="card-hover-effect"></div>
+            </div>
+            
+            <div class="solution-detail-card group">
+                <div class="solution-detail-icon group-hover:scale-110 transition-all duration-300">
+                    <i class="ri-pulse-line"></i>
+                </div>
+                <h3 class="group-hover:text-primary transition-colors duration-300">Optical Ground Wire</h3>
+                <ul class="solution-features">
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Dual-function Cables</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Lightning Protection</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Fiber Optic Communication</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Power Line Integration</li>
+                </ul>
+                <div class="card-hover-effect"></div>
+            </div>
+            
+            <div class="solution-detail-card group">
+                <div class="solution-detail-icon group-hover:scale-110 transition-all duration-300">
+                    <i class="ri-battery-2-charge-fill"></i>
+                </div>
+                <h3 class="group-hover:text-primary transition-colors duration-300">Battery & Rectifier</h3>
+                <ul class="solution-features">
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Backup Power Systems</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>AC to DC Conversion</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Uninterrupted Power Supply</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Energy Storage Solutions</li>
+                </ul>
+                <div class="card-hover-effect"></div>
+            </div>
+            
+            <div class="solution-detail-card group">
+                <div class="solution-detail-icon group-hover:scale-110 transition-all duration-300">
+                    <i class="ri-shield-check-fill"></i>
+                </div>
+                <h3 class="group-hover:text-primary transition-colors duration-300">Security (Firewall)</h3>
+                <ul class="solution-features">
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Network Protection</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Threat Detection</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Access Control</li>
+                    <li><i class="ri-check-line text-green-500 mr-2"></i>Intrusion Prevention</li>
+                </ul>
+                <div class="card-hover-effect"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FTTH - GPON -->
+<section id="ftth" class="pt-2 pb-2 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2">
+                <div class="solution-image-wrapper">
+                    <img src="../src/imgs/solutions/photo2.jpg" alt="FTTH-GPON" class="solution-image">
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <div class="inline-flex items-center gap-3 bg-primary/10 text-primary px-6 py-3 rounded-full font-bold text-lg mb-6">
+                    <span class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold">02</span>
+                    <i class="ri-wifi-fill text-2xl animate-pulse"></i>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">FTTH - GPON</h2>
+                <p class="text-gray-600 mb-8 text-lg leading-relaxed">Fiber to the Home with Gigabit Passive Optical Network technology delivers ultra-fast internet connectivity directly to residential and business premises with unmatched reliability.</p>
+                
+                <div class="space-y-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-speed-up-fill"></i>
+                        </div>
+                        <div>
+                            <h4>High-Speed Connectivity</h4>
+                            <p>Gigabit speeds for seamless streaming, gaming, and work</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-signal-tower-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Reliable Infrastructure</h4>
+                            <p>Stable connections with minimal downtime and interference</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-expand-height-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Scalable Solutions</h4>
+                            <p>Easily expandable to accommodate growing bandwidth needs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FIBER - FOC -->
+<section id="fiber" class="pt-2 pb-2 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row-reverse items-center gap-12">
+            <div class="lg:w-1/2">
+                <div class="solution-image-wrapper">
+                    <img src="../src/imgs/solutions/photo3.jpg" alt="Fiber Optic Cable" class="solution-image">
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <div class="inline-flex items-center gap-3 bg-primary/10 text-primary px-6 py-3 rounded-full font-bold text-lg mb-6">
+                    <span class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold">03</span>
+                    <i class="ri-base-station-fill text-2xl animate-pulse"></i>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">FIBER - FOC</h2>
+                <p class="text-gray-600 mb-8 text-lg leading-relaxed">Our advanced Fiber Optic Cable solutions provide the robust backbone infrastructure for high-speed data transmission across networks of all sizes and complexities.</p>
+                
+                <div class="space-y-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-global-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Long-Distance Transmission</h4>
+                            <p>Minimal signal loss over extended distances</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-secure-payment-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Enhanced Security</h4>
+                            <p>Difficult to tap without detection for secure data transfer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-thunderstorms-fill"></i>
+                        </div>
+                        <div>
+                            <h4>EMI Immunity</h4>
+                            <p>Unaffected by electromagnetic interference</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECURITY - CCTV -->
+<section id="security" class="pt-2 pb-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2">
+                <div class="solution-image-wrapper">
+                    <img src="../src/imgs/solutions/photo4.jpg" alt="Security CCTV" class="solution-image">
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <div class="inline-flex items-center gap-3 bg-primary/10 text-primary px-6 py-3 rounded-full font-bold text-lg mb-6">
+                    <span class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold">04</span>
+                    <i class="ri-cctv-fill text-2xl animate-pulse"></i>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">SECURITY - CCTV</h2>
+                <p class="text-gray-600 mb-8 text-lg leading-relaxed">State-of-the-art surveillance systems engineered to monitor and protect your premises with intelligent, cutting-edge security technology and real-time monitoring capabilities.</p>
+                
+                <div class="space-y-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-eye-fill"></i>
+                        </div>
+                        <div>
+                            <h4>HD Surveillance</h4>
+                            <p>Crystal clear footage with high-definition cameras</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-cloud-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Cloud Storage</h4>
+                            <p>Secure off-site storage of footage with easy access</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="ri-ai-generate"></i>
+                        </div>
+                        <div>
+                            <h4>Smart Analytics</h4>
+                            <p>AI-powered motion detection and object recognition</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-gradient-to-br from-primary via-blue-600 to-blue-800 relative overflow-hidden">
+    <!-- Animated Background -->
+    <div class="absolute inset-0">
+        <div class="cta-particles"></div>
+        <div class="absolute inset-0 opacity-10">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="grid-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M0 20 L40 20 M20 0 L20 40" stroke="#ffffff" stroke-width="0.5"></path>
+                </pattern>
+                <rect width="100%" height="100%" fill="url(#grid-pattern)"></rect>
+            </svg>
+        </div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 bg-white/10 text-white px-4 py-2 rounded-full font-medium mb-6 backdrop-blur-sm">
+                <i class="ri-rocket-fill animate-bounce"></i> Ready to Transform?
+            </div>
+            <h2 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">Ready to upgrade your <span class="text-yellow-300">infrastructure?</span></h2>
+            <p class="text-white/90 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">Contact us today to discuss how our cutting-edge solutions can transform your business and drive unprecedented growth.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="contact.html" class="cta-button group">
+                    <span>Get in Touch</span>
+                    <i class="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform duration-300"></i>
+                </a>
+                <a href="#power" class="inline-flex items-center gap-2 px-6 py-3 bg-white/10 text-white rounded-full font-semibold hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">
+                    <i class="ri-play-circle-line"></i>
+                    View Solutions
+                </a>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+<!-- Floating Action Buttons -->
+<div id="chatbot-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
+
+    <!-- Chatbot Toggle Button -->
+    <button id="chatbot-toggle" aria-label="Open chat">
+        <i class="ri-message-3-fill text-xl"></i>
+    </button>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-window" class="hidden">
+    <div class="chatbot-header">
+        <h3>Chat with Robbie</h3>
+        <button id="chatbot-close" aria-label="Close chat">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+    <div id="chatbot-messages">
+        <div class="message bot">
+            Hello! I'm Robbie, your friendly 3E Hitech assistant! How can I help you today?
+        </div>
+    </div>
+    <div class="chatbot-input-area">
+        <textarea id="chatbot-input" placeholder="Type your message..." rows="1"></textarea>
+        <button id="chatbot-send" aria-label="Send message">
+            <i class="ri-send-plane-fill"></i>
+        </button>
+    </div>
+</div>
+
+
+<!-- JavaScript -->
+<script src="../scr/b.js"></script>
+<script src="../scr/zzz.js"></script>
+<script src="../ins/header.js"></script>
+<script src="../ins/scroll.js"></script>
+<script src="../ins/chatbot.js"></script>
+<script src="../ins/footer.js"></script>
+
+</body>
+</html>
